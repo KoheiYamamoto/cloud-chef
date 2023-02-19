@@ -6,3 +6,12 @@
 1/functions/BlobTrigger/function.json
 1/functions/BlobTrigger/readme.md
 1/functions/BlobTrigger/sample.dat
+
+# 2
+2/__pycache__/*
+
+# 3
+3/calling/node_modules/*
+3/video-calling/node_modules/*
+3/acs-lab-main/node_modules/*
+
