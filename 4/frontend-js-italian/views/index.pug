@@ -1,0 +1,15 @@
+extends layout
+
+block content 
+    div(class="ui attached segment")
+      div(class="ui divided items")
+        each menu in menus
+          div(class="item")
+            div(class="ui image small")
+              img(src=menu.image_url)
+            div(class="content")
+              div(class="header")
+                span(class="menu-title")=menu.title
+              div(class="meta")
+                span(class="meta-info")=menu.category
+                span(class="meta-info")=menu.price
